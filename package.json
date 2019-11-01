@@ -3,9 +3,6 @@
   "version": "",
   "description": "",
   "scripts": {
-    "dev:azurite": "azurite",
-    "dev:funcStart": "func start",
-    "start": "concurrently --kill-all npm run dev:azurite npm run dev:funcStart",
     "test": "echo \"No tests yet...\""
   },
   "author": "",
