@@ -6,8 +6,9 @@ https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-macos?view=azure-cl
 ## Steps to replicate
 1. Clone the repo and run `npm install` in the root folder
 2. In Visual Studio Start Azurite via the VS Code Extension
-3. Open console and run `func start`
-4. Leave for a minute and you should be met with the following error. `The listener for function 'Functions.Hello' was unable to start.
+3. OPen the terminal and Install the Azure CLI `npm install -g azure-functions-core-tools`
+4. Open console and run `func start`
+5. Leave for a minute and you should be met with the following error. `The listener for function 'Functions.Hello' was unable to start.
 [06/11/2019 10:25:34] The listener for function 'Functions.Hello' was unable to start. Microsoft.WindowsAzure.Storage: Connection refused. System.Net.Http: Connection refused. System.Private.CoreLib: Connection refused.`
 5. Try to access the endpoint `http://localhost:7071/api/orchestrators/DurableFunctionsOrchestratorJS`
 
